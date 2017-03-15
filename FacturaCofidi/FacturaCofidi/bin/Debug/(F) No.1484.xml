@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<EI>
+  <INVOICES>
+    <INVOICE>
+      <HEADER>
+        <E01 FolioInterno="4821" Fecha="2017-03-07 00:00:00" SubTotal="17369.99" Descuento="0" Total="17369.99" EstadoDocumento="" TipoDeComprobante="18" />
+        <E02 Nit="C/F" NoCliente="C-CF" Nombre="RENTA DE MAQUINARIA INDUSTRIAL, S.A. DE CV    NIT:0614-030614-101-3" />
+        <E03 Localidad="Ciudad" Pais="Guatemala" />
+        <E04 Impuesto="0" />
+        <EA1 CustomField15="" Moneda="USD" TipoCambio="7.37" />
+        <C03 Dato3="" />
+        <C04 Dato4="" />
+        <C05 Dato5="" />
+        <C06 Dato6="" />
+      </HEADER>
+      <DETAILS>
+        <D01 Cantidad="1" Descripcion="CARRETILLA APILADORA MARCA TCM MODELO FG30T3C SERIE TCB920321 AÑO 2016, MOTOR MARCA NISSAN K-21 2268" Importe="16727.03" NoIdentificacion="SERVICIO" Unidad="UND" ValorUnitario="16727.03">
+          <DA6 Importe="0" Impuesto="IVA" Tasa="0" />
+          <DA8 Porcentaje="0" Descripcion="Descuento" Importe="0" />
+        </D01>
+        
+        <D01 Cantidad="1" Descripcion="2 CILINDROS DE GAS PROPANO PARA CARRETILLAS APILADORAS" Importe="642.96" NoIdentificacion="SERVICIO" Unidad="UND" ValorUnitario="642.96">
+          <DA6 Importe="0" Impuesto="IVA" Tasa="0" />
+          <DA8 Porcentaje="0" Descripcion="Descuento" Importe="0" />
+        </D01>
+        
+      </DETAILS>
+    </INVOICE>
+  </INVOICES>
+</EI>

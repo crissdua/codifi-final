@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.cofidi.com.gt/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.cofidi.com.gt/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.cofidi.com.gt/">
+      <s:element name="GeneraCFD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraCFDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFD_v2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Resolucion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFD_v2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraCFD_v2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraCFDBResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Domain" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="File" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reference" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraCFDEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDEB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Domain" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="User" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="File" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Type" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Reference" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDEBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraCFDEBResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DescargaPDF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoDocumento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DescargaPDFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DescargaPDFResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EstablecimientosByNIT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NIT" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EstablecimientosByNITResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EstablecimientosByNITResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EstablecimientosByFecha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Fecha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EstablecimientosByFechaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EstablecimientosByFechaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DocumentosByNIT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NIT" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DocumentosByNITResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentosByNITResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DocumentosByFecha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Fecha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DocumentosByFechaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentosByFechaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ContribuyentesByFecha">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Fecha" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ContribuyentesByFechaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ContribuyentesByFechaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelaCFD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FolioFiscal" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaEmision" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CancelaCFDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CancelaCFDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Importa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImportaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportaB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ImportaBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ImportaBResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Sincroniza">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Directorio" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SincronizaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SincronizaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraDTE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraDTEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraDTEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraDTE_v2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Archivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Referencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Resolucion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraDTE_v2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraDTE_v2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraPDF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoDocumento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraPDFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraPDFResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Consultas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaInicial" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="FechaFinal" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentoInicial" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentoFinal" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraQR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dominio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Contraseña" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cadena" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraQRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraQRResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDDB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Empresa" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NoDocumento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GeneraCFDDBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GeneraCFDDBResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GeneraCFDSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraCFD" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraCFDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFD_v2SoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraCFD_v2" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFD_v2SoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraCFD_v2Response" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDBSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraCFDB" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDBSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraCFDBResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDESoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraCFDE" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDESoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraCFDEResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDEBSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraCFDEB" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDEBSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraCFDEBResponse" />
+  </wsdl:message>
+  <wsdl:message name="DescargaPDFSoapIn">
+    <wsdl:part name="parameters" element="tns:DescargaPDF" />
+  </wsdl:message>
+  <wsdl:message name="DescargaPDFSoapOut">
+    <wsdl:part name="parameters" element="tns:DescargaPDFResponse" />
+  </wsdl:message>
+  <wsdl:message name="EstablecimientosByNITSoapIn">
+    <wsdl:part name="parameters" element="tns:EstablecimientosByNIT" />
+  </wsdl:message>
+  <wsdl:message name="EstablecimientosByNITSoapOut">
+    <wsdl:part name="parameters" element="tns:EstablecimientosByNITResponse" />
+  </wsdl:message>
+  <wsdl:message name="EstablecimientosByFechaSoapIn">
+    <wsdl:part name="parameters" element="tns:EstablecimientosByFecha" />
+  </wsdl:message>
+  <wsdl:message name="EstablecimientosByFechaSoapOut">
+    <wsdl:part name="parameters" element="tns:EstablecimientosByFechaResponse" />
+  </wsdl:message>
+  <wsdl:message name="DocumentosByNITSoapIn">
+    <wsdl:part name="parameters" element="tns:DocumentosByNIT" />
+  </wsdl:message>
+  <wsdl:message name="DocumentosByNITSoapOut">
+    <wsdl:part name="parameters" element="tns:DocumentosByNITResponse" />
+  </wsdl:message>
+  <wsdl:message name="DocumentosByFechaSoapIn">
+    <wsdl:part name="parameters" element="tns:DocumentosByFecha" />
+  </wsdl:message>
+  <wsdl:message name="DocumentosByFechaSoapOut">
+    <wsdl:part name="parameters" element="tns:DocumentosByFechaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ContribuyentesByFechaSoapIn">
+    <wsdl:part name="parameters" element="tns:ContribuyentesByFecha" />
+  </wsdl:message>
+  <wsdl:message name="ContribuyentesByFechaSoapOut">
+    <wsdl:part name="parameters" element="tns:ContribuyentesByFechaResponse" />
+  </wsdl:message>
+  <wsdl:message name="CancelaCFDSoapIn">
+    <wsdl:part name="parameters" element="tns:CancelaCFD" />
+  </wsdl:message>
+  <wsdl:message name="CancelaCFDSoapOut">
+    <wsdl:part name="parameters" element="tns:CancelaCFDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImportaSoapIn">
+    <wsdl:part name="parameters" element="tns:Importa" />
+  </wsdl:message>
+  <wsdl:message name="ImportaSoapOut">
+    <wsdl:part name="parameters" element="tns:ImportaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ImportaBSoapIn">
+    <wsdl:part name="parameters" element="tns:ImportaB" />
+  </wsdl:message>
+  <wsdl:message name="ImportaBSoapOut">
+    <wsdl:part name="parameters" element="tns:ImportaBResponse" />
+  </wsdl:message>
+  <wsdl:message name="SincronizaSoapIn">
+    <wsdl:part name="parameters" element="tns:Sincroniza" />
+  </wsdl:message>
+  <wsdl:message name="SincronizaSoapOut">
+    <wsdl:part name="parameters" element="tns:SincronizaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraDTESoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraDTE" />
+  </wsdl:message>
+  <wsdl:message name="GeneraDTESoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraDTEResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraDTE_v2SoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraDTE_v2" />
+  </wsdl:message>
+  <wsdl:message name="GeneraDTE_v2SoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraDTE_v2Response" />
+  </wsdl:message>
+  <wsdl:message name="GeneraPDFSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraPDF" />
+  </wsdl:message>
+  <wsdl:message name="GeneraPDFSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraPDFResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultasSoapIn">
+    <wsdl:part name="parameters" element="tns:Consultas" />
+  </wsdl:message>
+  <wsdl:message name="ConsultasSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultasResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraQRSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraQR" />
+  </wsdl:message>
+  <wsdl:message name="GeneraQRSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraQRResponse" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDDBSoapIn">
+    <wsdl:part name="parameters" element="tns:GeneraCFDDB" />
+  </wsdl:message>
+  <wsdl:message name="GeneraCFDDBSoapOut">
+    <wsdl:part name="parameters" element="tns:GeneraCFDDBResponse" />
+  </wsdl:message>
+  <wsdl:portType name="Service1Soap">
+    <wsdl:operation name="GeneraCFD">
+      <wsdl:input message="tns:GeneraCFDSoapIn" />
+      <wsdl:output message="tns:GeneraCFDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFD_v2">
+      <wsdl:input message="tns:GeneraCFD_v2SoapIn" />
+      <wsdl:output message="tns:GeneraCFD_v2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDB">
+      <wsdl:input message="tns:GeneraCFDBSoapIn" />
+      <wsdl:output message="tns:GeneraCFDBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDE">
+      <wsdl:input message="tns:GeneraCFDESoapIn" />
+      <wsdl:output message="tns:GeneraCFDESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDEB">
+      <wsdl:input message="tns:GeneraCFDEBSoapIn" />
+      <wsdl:output message="tns:GeneraCFDEBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DescargaPDF">
+      <wsdl:input message="tns:DescargaPDFSoapIn" />
+      <wsdl:output message="tns:DescargaPDFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EstablecimientosByNIT">
+      <wsdl:input message="tns:EstablecimientosByNITSoapIn" />
+      <wsdl:output message="tns:EstablecimientosByNITSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EstablecimientosByFecha">
+      <wsdl:input message="tns:EstablecimientosByFechaSoapIn" />
+      <wsdl:output message="tns:EstablecimientosByFechaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DocumentosByNIT">
+      <wsdl:input message="tns:DocumentosByNITSoapIn" />
+      <wsdl:output message="tns:DocumentosByNITSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DocumentosByFecha">
+      <wsdl:input message="tns:DocumentosByFechaSoapIn" />
+      <wsdl:output message="tns:DocumentosByFechaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ContribuyentesByFecha">
+      <wsdl:input message="tns:ContribuyentesByFechaSoapIn" />
+      <wsdl:output message="tns:ContribuyentesByFechaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelaCFD">
+      <wsdl:input message="tns:CancelaCFDSoapIn" />
+      <wsdl:output message="tns:CancelaCFDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Importa">
+      <wsdl:input message="tns:ImportaSoapIn" />
+      <wsdl:output message="tns:ImportaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ImportaB">
+      <wsdl:input message="tns:ImportaBSoapIn" />
+      <wsdl:output message="tns:ImportaBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Sincroniza">
+      <wsdl:input message="tns:SincronizaSoapIn" />
+      <wsdl:output message="tns:SincronizaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraDTE">
+      <wsdl:input message="tns:GeneraDTESoapIn" />
+      <wsdl:output message="tns:GeneraDTESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraDTE_v2">
+      <wsdl:input message="tns:GeneraDTE_v2SoapIn" />
+      <wsdl:output message="tns:GeneraDTE_v2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraPDF">
+      <wsdl:input message="tns:GeneraPDFSoapIn" />
+      <wsdl:output message="tns:GeneraPDFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Consultas">
+      <wsdl:input message="tns:ConsultasSoapIn" />
+      <wsdl:output message="tns:ConsultasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraQR">
+      <wsdl:input message="tns:GeneraQRSoapIn" />
+      <wsdl:output message="tns:GeneraQRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDDB">
+      <wsdl:input message="tns:GeneraCFDDBSoapIn" />
+      <wsdl:output message="tns:GeneraCFDDBSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Service1Soap" type="tns:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GeneraCFD">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraCFD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFD_v2">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraCFD_v2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDB">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraCFDB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDE">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraCFDE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDEB">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraCFDEB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DescargaPDF">
+      <soap:operation soapAction="http://www.cofidi.com.gt/DescargaPDF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EstablecimientosByNIT">
+      <soap:operation soapAction="http://www.cofidi.com.gt/EstablecimientosByNIT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EstablecimientosByFecha">
+      <soap:operation soapAction="http://www.cofidi.com.gt/EstablecimientosByFecha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocumentosByNIT">
+      <soap:operation soapAction="http://www.cofidi.com.gt/DocumentosByNIT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocumentosByFecha">
+      <soap:operation soapAction="http://www.cofidi.com.gt/DocumentosByFecha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ContribuyentesByFecha">
+      <soap:operation soapAction="http://www.cofidi.com.gt/ContribuyentesByFecha" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelaCFD">
+      <soap:operation soapAction="http://www.cofidi.com.gt/CancelaCFD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Importa">
+      <soap:operation soapAction="http://www.cofidi.com.gt/Importa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImportaB">
+      <soap:operation soapAction="http://www.cofidi.com.gt/ImportaB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sincroniza">
+      <soap:operation soapAction="http://www.cofidi.com.gt/Sincroniza" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraDTE">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraDTE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraDTE_v2">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraDTE_v2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraPDF">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraPDF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Consultas">
+      <soap:operation soapAction="http://www.cofidi.com.gt/Consultas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraQR">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraQR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDDB">
+      <soap:operation soapAction="http://www.cofidi.com.gt/GeneraCFDDB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="Service1Soap12" type="tns:Service1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GeneraCFD">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraCFD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFD_v2">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraCFD_v2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDB">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraCFDB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDE">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraCFDE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDEB">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraCFDEB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DescargaPDF">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/DescargaPDF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EstablecimientosByNIT">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/EstablecimientosByNIT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EstablecimientosByFecha">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/EstablecimientosByFecha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocumentosByNIT">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/DocumentosByNIT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DocumentosByFecha">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/DocumentosByFecha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ContribuyentesByFecha">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/ContribuyentesByFecha" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelaCFD">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/CancelaCFD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Importa">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/Importa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ImportaB">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/ImportaB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Sincroniza">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/Sincroniza" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraDTE">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraDTE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraDTE_v2">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraDTE_v2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraPDF">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraPDF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Consultas">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/Consultas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraQR">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraQR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GeneraCFDDB">
+      <soap12:operation soapAction="http://www.cofidi.com.gt/GeneraCFDDB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="Service1Soap" binding="tns:Service1Soap">
+      <soap:address location="http://www.cofidi.com.gt:8020/WSCOFIDI/WSCOFIDI.asmx" />
+    </wsdl:port>
+    <wsdl:port name="Service1Soap12" binding="tns:Service1Soap12">
+      <soap12:address location="http://www.cofidi.com.gt:8020/WSCOFIDI/WSCOFIDI.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

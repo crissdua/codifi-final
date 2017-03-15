@@ -1,0 +1,55 @@
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe.config
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.pdb
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.xml
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbobsCOM.dll
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbouiCOM.dll
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.ResolveComReference.cache
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.Resources.resources
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.GenerateResource.Cache
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.exe
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.xml
+c:\users\dany\documents\visual studio 2013\Projects\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.pdb
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe.config
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.ResolveComReference.cache
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.exe
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.xml
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.pdb
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.pdb
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.xml
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.Resources.resources
+C:\Users\DANNY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.GenerateResource.Cache
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe.config
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.ResolveComReference.cache
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.exe
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.xml
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.pdb
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.pdb
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.xml
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.Resources.resources
+C:\Users\DANY\Desktop\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.GenerateResource.Cache
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe.config
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.pdb
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.xml
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbouiCOM.dll
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.ResolveComReference.cache
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.Resources.resources
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.GenerateResource.Cache
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.exe
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.xml
+C:\Users\DANNY\Desktop\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.pdb
+E:\codifi final\FacturaCofidi\FacturaCofidi\bin\Debug\FacturaCofidi.exe.config
+E:\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbobsCOM.dll
+E:\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\Interop.SAPbouiCOM.dll
+E:\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.vbproj.ResolveComReference.cache
+E:\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.exe
+E:\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.xml
+E:\codifi final\FacturaCofidi\FacturaCofidi\obj\Debug\FacturaCofidi.pdb

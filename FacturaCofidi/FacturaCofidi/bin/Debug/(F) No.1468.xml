@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<EI>
+  <INVOICES>
+    <INVOICE>
+      <HEADER>
+        <E01 FolioInterno="4811" Fecha="2017-03-07 00:00:00" SubTotal="3616.07" Descuento="0" Total="4050" EstadoDocumento="" TipoDeComprobante="18" />
+        <E02 Nit="4426909-9" NoCliente="C-4426909-9" Nombre="ENVASES UNIVERSALES REXAM DE CENTROAMERICA, S.A." />
+        <E03 Localidad="Ciudad" Pais="Guatemala" />
+        <E04 Impuesto="433.93" />
+        <EA1 CustomField15="" Moneda="USD" TipoCambio="7.37" />
+        <C03 Dato3="" />
+        <C04 Dato4="" />
+        <C05 Dato5="" />
+        <C06 Dato6="" />
+      </HEADER>
+      <DETAILS>
+        <D01 Cantidad="1" Descripcion="00030 600187; ALQUILER DE  3 M/C TCM No.114, No.115 Y No.116 DEL 01 AL 28-02-17 A US$ 1,350.00 C/U" Importe="4050" NoIdentificacion="SERVICIO" Unidad="UND" ValorUnitario="4050">
+          <DA6 Importe="433.93" Impuesto="IVA" Tasa="12" />
+          <DA8 Porcentaje="0" Descripcion="Descuento" Importe="0" />
+        </D01>
+      </DETAILS>
+    </INVOICE>
+  </INVOICES>
+</EI>
